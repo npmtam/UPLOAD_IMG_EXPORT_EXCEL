@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Create Shopify Store" parallel="false">
+
+    <test name="RUN ON CHROME UI">
+        <parameter name="browser" value="chrome" />
+<!--        <parameter name="" value=""-->
+        <classes>
+            <class name="testcases.TC01_ScanAndUpload" />
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
